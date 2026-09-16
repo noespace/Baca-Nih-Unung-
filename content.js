@@ -6,7 +6,7 @@
   - body   = isi halaman
 
   Tag yang boleh dipakai di body:
-  <p>paragraf</p>
+  <p>parafgraf</p>
   <strong>tebal</strong>
   <em>miring</em>
   <blockquote>kutipan</blockquote>
