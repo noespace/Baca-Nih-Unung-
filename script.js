@@ -66,6 +66,12 @@ document.addEventListener("touchend", (event) => {
 
 document.querySelectorAll("[data-answer]").forEach((button) => {
   button.addEventListener("click", () => {
+    if (button.dataset.answer === "yes") {
+      window.location.href =
+        "https://wa.me/6285814218893?text=Yey%2C%20yaudah%20temenan%20lagi.%20Ayo%20jajan.";
+      return;
+    }
+
     answer.innerHTML = ENDING_RESPONSES[button.dataset.answer];
     answer.classList.add("show");
   });
